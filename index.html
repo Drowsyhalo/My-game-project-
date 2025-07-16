@@ -2,21 +2,12 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Enter Game</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Game UI Template</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <img src="images/gamepad.png" alt="Gamepad" class="logo" />
-    <h1>Welcome to the Game Zone</h1>
-    <p>Enter the secret password to enter:</p>
-    <input type="password" id="passwordInput" placeholder="Enter password..." />
-    <button onclick="checkPassword()">Enter</button>
-    <p id="errorMsg"></p>
-    <img src="images/arcade.png" alt="Arcade Machine" class="arcade" />
-  </div>
-
-  <script src="script.js"></script>
+  <div id="root"></div>
+  <script type="module" src="./src/App.js"></script>
 </body>
 </html>
