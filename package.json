@@ -1,0 +1,10 @@
+{
+  "name": "game-ui-template",
+  "version": "1.0.0",
+  "description": "Basic game UI with play button and background music",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {}
+}
